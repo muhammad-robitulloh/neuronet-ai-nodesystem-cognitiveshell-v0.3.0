@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuronet-ai-cognitiveshell" 
+version = "0.3.0"
+description = "Modular AI-powered architecture for intelligent automation pipelines."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+  { name="Muhammad Robitulloh", email="muhammadrobitulloh19@gmail.com" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: Other/Proprietary License",
+  "Operating System :: OS Independent",
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries :: Application Frameworks"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/muhammad-robitulloh/neuronet-ai-nodesystem-cognitiveshell-v0.3.0"
+"Repository" = "https://github.com/muhammad-robitulloh/neuronet-ai-nodesystem-cognitiveshell-v0.3.0"
+"Bug Tracker" = "https://github.com/muhammad-robitulloh/neuronet-ai-nodesystem-cognitiveshell-v0.3.0/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.dynamic]
+version = {attr = "neuronet-ai-cognitiveshell.__version__"}
