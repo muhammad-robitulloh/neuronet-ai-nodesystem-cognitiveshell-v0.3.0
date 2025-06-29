@@ -4,7 +4,7 @@ long_description = (Path(__file__).parent / "README.md").read_text(encoding="utf
 
 setup(
     name='neuronet-ai-cognitiveshell',
-    version='0.2.6',
+    version='0.3.0',
     packages=find_packages(),
     install_requires=[
     "python-telegram-bot>=20.0",
